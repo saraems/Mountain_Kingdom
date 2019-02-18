@@ -3,7 +3,7 @@
 Przygotować landing page w oparciu o załączony design (mountain.psd) oraz zaimplementować
 funkcjonalność logowania w oparciu o dokumentację API
 
-###Wymagania:
+##Wymagania:
 
 Responsywność w zakresie szerokości 320px-1920px
 Po kliknięciu przycisk na środku powinien pokazać się popup z formularzem logowania
