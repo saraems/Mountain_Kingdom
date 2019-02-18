@@ -1,0 +1,43 @@
+
+.login_subpage {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.login_window {
+    height: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, .15);
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 15px 0 15px 0;
+}
+
+.btn_post {
+    width: 150px;
+}
+
+
