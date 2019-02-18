@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mountain_Kingdom/precache-manifest.66017234d9e873e9f943feac7639af90.js"
+  "/Mountain_Kingdom/precache-manifest.91f0e77fd6307cc5d0a48caa3944a76d.js"
 );
 
 workbox.clientsClaim();
