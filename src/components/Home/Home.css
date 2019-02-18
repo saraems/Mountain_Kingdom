@@ -7,3 +7,46 @@ body {
     position: relative;
 }
 
+html {
+    font-size: 14px;
+}
+
+
+@media (max-width: 985px) {
+
+    html {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    html {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    html {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 8px;
+    }
+
+}

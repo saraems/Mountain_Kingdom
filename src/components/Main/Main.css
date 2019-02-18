@@ -1,5 +1,5 @@
 main {
-    height: 80vh;
+    height: 78vh;
     width: 100%;
     color: whitesmoke;
     display: flex;
@@ -17,16 +17,16 @@ main section {
 
 h2 {
     font-family: 'Lobster', cursive;
-    font-size: 50px;
-    letter-spacing: 5px;
-    margin-bottom: 50px;
+    font-size: 3.7rem;
+    margin-bottom: 3.7rem;
+    font-weight: normal;
 }
 
 .login_btn {
-    height: 40px;
-    width: 20%;
-    font-size: 18px;
-    letter-spacing: 1px;
+    height: 2.3rem;
+    width: 15rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
     cursor: pointer;
     border: none;
     border-radius: 50px;
@@ -35,6 +35,36 @@ h2 {
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, .15);
     background: rgb(221, 190, 92);
     background: linear-gradient(90deg, rgba(221, 190, 92, 1) 22%, rgba(205, 166, 40, 1) 73%);
+}
+
+
+@media (max-width: 650px) {
+
+    h2 {
+        font-family: 'Lobster', cursive;
+        font-size: 4.2rem;
+    }
+
+    .login_btn {
+        height: 3rem;
+        width: 20rem;
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    h2 {
+        font-family: 'Lobster', cursive;
+        font-size: 4.2rem;
+    }
+
+    .login_btn {
+        height: 3rem;
+        width: 20rem;
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -78,5 +108,4 @@ h2 {
         background: linear-gradient(90deg, rgba(221, 190, 92, 1) 22%, rgba(205, 166, 40, 1) 73%);
 
     }
-
 }

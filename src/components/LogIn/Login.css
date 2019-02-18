@@ -13,8 +13,8 @@
 }
 
 .login_window {
-    height: 40%;
-    width: 20%;
+    height: 18rem;
+    width: 17rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +24,10 @@
     box-shadow: 8px 10px 20px 0 rgba(46, 61, 73, .15);
 }
 
+.login_window .login_window__header {
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+}
 
 input {
     width: 100%;
@@ -36,8 +40,6 @@ input {
     margin: 15px 0 15px 0;
 }
 
-.btn_post {
-    width: 150px;
-}
+
 
 

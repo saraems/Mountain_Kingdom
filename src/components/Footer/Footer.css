@@ -9,21 +9,24 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: whitesmoke;
-    font-size: 15px;
-    padding: 0 70px 0 70px;
+    font-size: 1rem;
+    padding: 0 6rem 0 6rem;
     box-sizing: border-box;
 }
 
 .copy_rights {
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .privacy_container {
-    letter-spacing: 5px;
+    letter-spacing: 0.4rem;
 }
 
 .designed_by_author {
     font-weight: bold;
+    letter-spacing: 1px;
+
 }
 
 @media (max-width: 320px) {
